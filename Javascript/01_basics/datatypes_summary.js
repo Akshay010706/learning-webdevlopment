@@ -38,3 +38,29 @@ const myfunction = function(){
     console.log("helloword");
     
 }
+
+
+
+// ---------------------------------------------------------
+
+//stack (primitive){copy milta hai } , heap (non primitive) {original milta hai or ushi me change hota hai }
+
+
+let myyoutubename = "akshay"
+
+let anothername = myyoutubename
+anothername = "varun"
+
+console.log(anothername);//varun
+console.log(myyoutubename);//akshay
+
+
+let user = {
+    email : "iuagss"
+}
+
+let user2 =  user 
+user2.email = "isdooa"
+console.log(user2);//changed
+console.log(user);//changed
+
