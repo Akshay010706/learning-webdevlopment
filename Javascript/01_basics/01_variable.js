@@ -1,6 +1,8 @@
-const account_Id = 17829
-let accountEmail = "akshay@gmail.com" 
-var accountpassword = "12345" //var has scope problem
+const account_Id = 17829//used to initialize constant
+let accountEmail = "akshay@gmail.com"//one time innitialize and then update any number of time without intialization
+// accountEmail = "djhdisbbsdv"
+var accountpassword = "12345" //var has scope problem ,initialize everytime it need to be updated 
+// var accountpassword = "286381"
 accountcity = "jaipur"
 
 let accountstate;//value is undifined if given non
